@@ -7194,6 +7194,23 @@ typedef struct
 #define GPIO_OTYPER_ODR_13                   GPIO_ODR_ODR_13
 #define GPIO_OTYPER_ODR_14                   GPIO_ODR_ODR_14
 #define GPIO_OTYPER_ODR_15                   GPIO_ODR_ODR_15
+/* Fix of compatibility issue with stm32f10x.h */
+#define GPIO_ODR_ODR0													GPIO_ODR_ODR_0
+#define GPIO_ODR_ODR1													GPIO_ODR_ODR_1
+#define GPIO_ODR_ODR2													GPIO_ODR_ODR_2
+#define GPIO_ODR_ODR3													GPIO_ODR_ODR_3
+#define GPIO_ODR_ODR4													GPIO_ODR_ODR_4
+#define GPIO_ODR_ODR5													GPIO_ODR_ODR_5
+#define GPIO_ODR_ODR6													GPIO_ODR_ODR_6
+#define GPIO_ODR_ODR7													GPIO_ODR_ODR_7
+#define GPIO_ODR_ODR8 												GPIO_ODR_ODR_8
+#define GPIO_ODR_ODR9 												GPIO_ODR_ODR_9
+#define GPIO_ODR_ODR10 												GPIO_ODR_ODR_10
+#define GPIO_ODR_ODR11												GPIO_ODR_ODR_11
+#define GPIO_ODR_ODR12												GPIO_ODR_ODR_12
+#define GPIO_ODR_ODR13												GPIO_ODR_ODR_13
+#define GPIO_ODR_ODR14 												GPIO_ODR_ODR_14
+#define GPIO_ODR_ODR15  											GPIO_ODR_ODR_15
 
 /******************  Bits definition for GPIO_BSRR register  ******************/
 #define GPIO_BSRR_BS_0                       ((uint32_t)0x00000001)
