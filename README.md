@@ -28,3 +28,6 @@ Else you can analyse `main.c` and find out how to use the library in your case
 
 ## Compatibility
 The library is tested on BluePill board and also on STM32F407VGT6(STM32F4XX_M board)
+
+## Contribution
+Feel free to use the GitHub pull request system and suggest any ideas to be implemented in the project's boundaries
