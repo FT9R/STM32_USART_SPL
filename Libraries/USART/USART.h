@@ -41,8 +41,7 @@
 #endif
 #if !defined EngageTIM2 && defined CR_LF_Break
 #warning "Unsafe way to receive the data!"
-#warning "You have to end the frame with \r + \n to complete receiving process.\
-Checksum is inserted before \r if needed"
+#warning "You have to end the frame with \r + \n to complete receiving process. Checksum is inserted before \r if needed"
 #endif
 #if defined EngageTIM2 && defined CR_LF_Break
 #error "Incompatible defines "EngageTIM2 + CR_LF_Break", choose only desired one"
