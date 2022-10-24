@@ -31,7 +31,7 @@ Else you can analyse `main.c` and find out how to use the library in your case
 ## Compatibility
 The library is tested on:
 * BluePill board
-* STM32F407VGT6(STM32F4XX_M board)
+* STM32F407VGT6 (STM32F4XX_M board)
 * STM32F107RCT6
 
 ## Contribution
