@@ -2,6 +2,7 @@
 Current library uses SPL functions on the initialization stage
 and CMSIS definitions inside main code in order to get access to MCU registers directly.
 This approach provides the best performance and saves CPU free time.
+It contains functions to support the RS485 physical layer
 
 ## Data receiving process
 How does the MCU know when a data frame sent from the transceiver is ready to be read?
