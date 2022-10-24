@@ -11,3 +11,10 @@ At the moment, the project implements 3 methods for obtaining data:
 * receiving until combination of \r + \n is reached
 
 Take in your mind that 2 last methods are unsafe
+
+## Integration with your project
+1. Copy ''USART.h'' and ''USART.c'' from $PROJ_DIR$\Libraries\USART to your project
+2. Write the line '#include "USART.h"' in your main header file 
+3. Uncomment the definition of desired CPU you are going using to
+4. Uncomment USARTx needed by your project
+5. Determine the combination of '#define EngageTIM2' and '#define CR_LF_Break'
