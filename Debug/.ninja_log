@@ -1,103 +1,39 @@
 # ninja log v5
-1	19	6880415714511510	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Config/startup_stm32f407xx.o	a4928be9f2c1c1f8
-845	1032	6878868565974372	C:/Users/cheryomushkinra/Desktop/UART SPL/Debug/Obj/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.o	83fd0e55fec6c7e7
-2	236	6880396037906309	C:/Users/cheryomushkinra/Desktop/UART SPL/Debug/Obj/Libraries/USART/USART.o	75aa2f095ff8e713
-27	342	6878868559077843	C:/Users/cheryomushkinra/Desktop/UART SPL/Debug/Obj/Config/system_stm32f10x.o	b27867d0bc8539fb
-1	23	6878868555979496	C:/Users/cheryomushkinra/Desktop/UART SPL/Debug/Obj/Config/startup_stm32f10x_ld.o	1c368ed88a165e9c
-243	403	6880396039580759	C:/Users/cheryomushkinra/Desktop/UART SPL/Debug/Obj/Source/main.o	5635a6e3d62ef71d
-349	536	6878868561077049	C:/Users/cheryomushkinra/Desktop/UART SPL/Debug/Obj/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.o	4ff865abd96f5f8e
-544	695	6878868562675924	C:/Users/cheryomushkinra/Desktop/UART SPL/Debug/Obj/Source/Sys_Init.o	52cde67051ec4157
-1041	1190	6878868567573595	C:/Users/cheryomushkinra/Desktop/UART SPL/Debug/Obj/Libraries/Delay/Delay.o	f4ddfecf14c02543
-411	474	6880396040287061	C:/Users/cheryomushkinra/Desktop/UART SPL/Debug/Exe/UART SPL.out	a019dae69d7caa6c
-24	183	6880415716065941	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Config/system_stm32f4xx.o	e4a360ea53179eaf
-190	344	6880415717689715	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/Sys_Init.o	3bfd934837e64bf0
-805	1004	6880415724275658	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o	2418f3d5646757eb
-244	458	6880508381938997	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-583	796	6880415722191571	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o	ebbaeda5187c0354
-2	235	6880508379713555	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-469	541	6880508382770873	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	232	6880511026181461	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-242	403	6880511027888430	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-412	482	6880511028672799	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-3	243	6880517842876273	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-250	471	6880517845173700	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-483	554	6880517845996975	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-1	247	6880519442538669	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-257	327	6880519443331119	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	311	6880522044893319	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-321	390	6880522045696747	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	231	6880557148191953	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-2	224	6880557875412202	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-232	304	6880557876212146	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-1	164	6880558229494843	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-173	392	6880558231794587	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-400	469	6880558232594802	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	234	6880558714843787	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-243	312	6880558715643770	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	172	6880560123763216	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-181	396	6880560125962958	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-405	476	6880560126763167	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	300	6880560543259345	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-308	462	6880560544859263	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-470	540	6880560545659255	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	171	6880561233834786	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-179	391	6880561236034974	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-400	468	6880561236834964	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-158	332	6880565388569919	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-2	162	6880566607511832	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-2	166	6880566699614842	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-176	384	6880566701814827	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-393	464	6880566702615029	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-96	255	6880567482882645	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-2	172	6880567577941259	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-92	252	6880567877966327	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-70	232	6880568392805516	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-1	286	6880568487892681	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-294	450	6880568489592928	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-460	529	6880568490392669	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	170	6880570878927156	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-179	392	6880570881142467	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-401	471	6880570881937266	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	227	6880571298990673	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-238	396	6880571300687080	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-405	473	6880571301440182	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-1	217	6880571698532072	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Config/system_stm32f4xx.o	e4a360ea53179eaf
-228	246	6880571698911015	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Config/startup_stm32f407xx.o	a4928be9f2c1c1f8
-249	407	6880571700451691	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-415	628	6880571702658265	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-637	835	6880571704728174	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o	2418f3d5646757eb
-845	1062	6880571706993471	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o	ebbaeda5187c0354
-1070	1220	6880571708582074	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/Sys_Init.o	3bfd934837e64bf0
-1233	1301	6880571709379021	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	229	6880572276617961	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-237	396	6880572278291144	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-405	477	6880572279099556	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	227	6880572546008831	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-235	402	6880572547765610	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-411	481	6880572548548770	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	244	6880573412052419	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-253	412	6880573413733327	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-421	491	6880573414514917	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	240	6880583233585776	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-249	405	6880583235255080	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-413	484	6880583236037917	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-3	237	6880584214151744	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-245	403	6880584215820178	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-414	484	6880584216631252	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	175	6880585094499632	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-183	403	6880585096787663	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-415	485	6880585097601698	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	236	6880587244157928	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-243	459	6880587246399123	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-471	546	6880587247267432	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
-2	244	6880587315370689	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Libraries/USART/USART.o	86592dd08880fea
-252	412	6880587317047163	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Obj/Source/main.o	cdff0a8fdabf19e9
-422	489	6880587317817070	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/Exe/UART SPL.out	7918f433cb90a0f7
+13	316	6882974077214573	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/main.o	3661dc455b736de
 1	22	6882974074382146	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Config/startup_stm32f407xx.o	fe01d1e78d907cde
 4	251	6882974076596219	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Config/system_stm32f4xx.o	90be1a123a432cd5
-13	316	6882974077214573	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/main.o	3661dc455b736de
 10	370	6882974077763094	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o	13f35dadc8214bc4
 24	419	6882974078261764	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o	31f0ace675cf5735
 269	454	6882974078660701	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/Sys_Init.o	2896c3800432eb68
 324	574	6882974079837546	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/USART/USART.o	f7dbbb56f5e1ee88
 583	658	6882974080684704	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Exe/UART SPL.out	9ec7435cd4610146
+4	171	6883023751606259	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/main.o	3661dc455b736de
+1	242	6883023752312033	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/USART/USART.o	f7dbbb56f5e1ee88
+263	340	6883023753293769	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Exe/UART SPL.out	9ec7435cd4610146
+2	23	6883024685424687	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Config/startup_stm32f407xx.o	4c1294eff40d4e85
+27	188	6883024686993458	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Config/system_stm32f4xx.o	4083df5fd5619442
+197	358	6883024688694566	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/main.o	2b9dd739fdd998fc
+366	521	6883024690337909	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/Sys_Init.o	178b9cf6a2da66ef
+530	732	6883024692434095	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o	3c2046016b169dfa
+741	958	6883024694692975	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o	6ac62d6413cf9fde
+967	1196	6883024697074448	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/USART/USART.o	6b6adfbf99aef57e
+1205	1274	6883024697859574	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Exe/UART SPL.out	f76b5e1bb1462db3
+1	165	6883165779389120	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/main.o	2b9dd739fdd998fc
+3	236	6883172990539973	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Config/system_stm32f4xx.o	4083df5fd5619442
+244	399	6883172992190653	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/Sys_Init.o	178b9cf6a2da66ef
+409	567	6883172993873950	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/main.o	2b9dd739fdd998fc
+576	791	6883172996092966	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o	6ac62d6413cf9fde
+802	1007	6883172998257457	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o	3c2046016b169dfa
+1017	1245	6883173000646420	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/USART/USART.o	6b6adfbf99aef57e
+1253	1323	6883173001417241	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Exe/UART SPL.out	f76b5e1bb1462db3
+3	245	6883173149815497	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/USART/USART.o	6b6adfbf99aef57e
+255	324	6883173150598303	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Exe/UART SPL.out	f76b5e1bb1462db3
+2	309	6883176980595448	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/USART/USART.o	6b6adfbf99aef57e
+320	390	6883176981411860	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Exe/UART SPL.out	f76b5e1bb1462db3
+2	260	6883183706561348	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Config/system_stm32f4xx.o	90be1a123a432cd5
+10	305	6883183707022102	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/Sys_Init.o	2896c3800432eb68
+7	413	6883183707943063	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/USART/USART.o	f7dbbb56f5e1ee88
+13	433	6883183708281391	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o	31f0ace675cf5735
+266	463	6883183708623546	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Source/main.o	3661dc455b736de
+322	553	6883183709515925	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o	13f35dadc8214bc4
+562	637	6883183710364806	c:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/Exe/UART SPL.out	9ec7435cd4610146

@@ -22,11 +22,13 @@
 #define STM32F4xx
 #define UART1_Enable
 #define UART2_Enable
-#define EngageTIM2
+#define UART1_RS485
+#define UART2_RS485
+ #define EngageTIM2
 //#define CR_LF_Break
 #define WipeBufferEachRead
-#define ReadBufferSize            10
-#define WriteBufferSize           50
+#define ReadBufferSize            15
+#define WriteBufferSize           15
 /**
 *	@def Maintenance definitions
 */

@@ -1,103 +1,6 @@
 # ninja log v5
-5	89	6880571710000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.xcl	80984d537bc36415
-1	119	6880571710000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Config/system_stm32f4xx.xcl	bed196744d6d5754
-99	173	6880571720000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/Sys_Init.xcl	f179eac9d6851495
-181	311	6880571721764277	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.pbi	3b87e594431ffba4
-127	357	6880571722217663	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Config/system_stm32f4xx.pbi	822a8f3c70ced4b6
-314	389	6880571720000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.xcl	c3e6beee83c8f604
-360	433	6880571720000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.xcl	78115c6cb39dfde2
-398	471	6880571720000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.xcl	9668836f097f0e4d
-441	581	6880571724463754	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.pbi	3e330c1372ee331d
-477	627	6880571724921145	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-629	702	6880571725677596	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-584	723	6880571725876777	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-726	795	6880571726601609	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part0.pbi	a7297ffd2e2b45d
-705	938	6880571728026574	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/Sys_Init.pbi	fef390719ef01bc8
-941	1013	6880571728777266	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-1017	1099	6880571729640357	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-1102	2214	6880571740506586	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-1	139	6880572295658674	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-4	144	6880572295698350	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-142	215	6880572296425384	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-146	222	6880572296495267	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-225	309	6880572297358494	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-313	1421	6880572308209037	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-4	139	6880572561528282	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-1	144	6880572561557942	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-143	215	6880572562291701	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-147	221	6880572562351544	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-225	309	6880572563232611	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-314	1433	6880572574178176	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-1	137	6880572777298135	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-3	143	6880572777348000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-140	212	6880572778044591	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-146	220	6880572778124372	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-223	305	6880572778975680	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-309	1421	6880572789847044	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-1	140	6880573445916697	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-4	145	6880573445966559	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-142	214	6880573446655132	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-148	224	6880573446753044	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-227	308	6880573447598097	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-311	1416	6880573458389055	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-4	142	6880573560870208	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-2	149	6880573560940971	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-145	216	6880573561620498	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-152	228	6880573561740483	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-232	315	6880573562602290	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-319	1421	6880573573377837	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-4	52	6880582981847791	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-56	106	6880582982392846	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-1	140	6880582982735832	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-142	213	6880582983474051	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-216	297	6880582984315860	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-301	1415	6880582995198049	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-5	49	6880583147036496	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-52	99	6880583147537722	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-2	249	6880583149036647	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-253	322	6880583149769587	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-327	406	6880583150604318	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-410	1513	6880583161380764	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-1	141	6880583263898885	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-3	149	6880583263978890	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-144	217	6880583264672720	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-152	230	6880583264792100	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-234	322	6880583265714115	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-1	1111	6880583329181052	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-5	151	6880584236691152	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-1	156	6880584236721080	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-158	240	6880584237590444	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-153	243	6880584237590444	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-246	333	6880584238517961	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-336	1538	6880584250261069	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-4	166	6880585107776885	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-4	76	6880585159289496	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-2	146	6880585159993307	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-148	227	6880585160801130	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-231	315	6880585161682770	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-320	1456	6880585172800641	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-1	135	6880586130235515	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-138	209	6880586130984587	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-212	295	6880586131844904	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-300	1428	6880586142891263	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-2	140	6880586195084173	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-5	145	6880586195133756	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-143	215	6880586195833632	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-148	221	6880586195893475	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-224	306	6880586196735666	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-309	1428	6880586207678340	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-4	140	6880587265927835	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-2	145	6880587265957864	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-143	215	6880587266684819	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-147	221	6880587266744356	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-225	306	6880587267600778	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-310	1433	6880587278575374	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
-2	138	6880587330743441	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Source/main.pbi	23f2cd01a1022c6d
-4	145	6880587330813535	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/Libraries/USART/USART.pbi	68e7473c6e88f5f7
-141	211	6880587331487633	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part2.pbi	94119bb33bd913a7
-149	223	6880587331597366	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL_part1.pbi	47cdc3940593d057
-226	307	6880587332447887	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbd	dc2701a5d8dcabf4
-310	1437	6880587343437967	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/UART SPL/Debug/BrowseInfo/UART SPL.pbw	75a2de6c53ca43e8
+343	416	6880596510000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/Sys_Init.xcl	1063ec23f72106e2
+839	913	6880596518831513	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part2.pbi	830450e250f73880
 1	88	6880596510000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Config/system_stm32f4xx.xcl	50e84e7d05f8ea15
 6	125	6880596510000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.xcl	b5b8e03528fbf7c2
 95	175	6880596510000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.xcl	20843aece8fbc1c9
@@ -105,13 +8,85 @@
 183	316	6880596512861832	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.pbi	7269bf9aad808a08
 217	341	6880596513115160	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Config/system_stm32f4xx.pbi	49a2ea2c535f6017
 319	393	6880596510000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/main.xcl	963d5f55813fb764
-343	416	6880596510000000	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/Sys_Init.xcl	1063ec23f72106e2
 424	564	6880596515344809	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
 401	631	6880596516011696	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.pbi	bb6e8506d03e12ff
 567	705	6880596516748333	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/main.pbi	a9a4d0c68293e878
 634	710	6880596516772650	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part0.pbi	9d29bbe46684e18d
 708	785	6880596517548507	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
 713	837	6880596518071401	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/Sys_Init.pbi	4d839091497e1dbf
-839	913	6880596518831513	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part2.pbi	830450e250f73880
 915	998	6880596519685445	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
 1001	2118	6880596530609021	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+4	152	6883000742340604	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/main.pbi	a9a4d0c68293e878
+155	228	6883000743105848	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part2.pbi	830450e250f73880
+7	266	6883000743486805	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+270	343	6883000744262992	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+348	430	6883000745123518	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+434	1542	6883000755966504	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+4	150	6883024661232326	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/main.pbi	a9a4d0c68293e878
+6	157	6883024661305419	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+152	225	6883024661983596	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part2.pbi	830450e250f73880
+160	235	6883024662083337	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+238	321	6883024662942913	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+324	1436	6883024673811131	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+6	50	6883165726257323	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+52	99	6883165726757106	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+3	242	6883165728157313	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/main.pbi	a9a4d0c68293e878
+245	313	6883165728857098	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part2.pbi	830450e250f73880
+317	394	6883165729657090	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+398	1458	6883165739957055	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+3	138	6883165792096687	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/main.pbi	a9a4d0c68293e878
+1	142	6883165792096687	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+141	210	6883165792796684	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part2.pbi	830450e250f73880
+145	217	6883165792896679	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+221	301	6883165793696895	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+305	1353	6883165803897014	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+2	142	6883167063859711	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+145	217	6883167064603501	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+220	302	6883167065463151	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+307	1372	6883167075873044	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+1	140	6883167228596817	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+143	214	6883167229337676	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+218	301	6883167230206619	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+306	1369	6883167240607166	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+2	253	6883167294726775	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+256	329	6883167295492584	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+332	420	6883167296398716	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+425	1511	6883167307004828	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+4	129	6883168242439673	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Config/system_stm32f4xx.pbi	49a2ea2c535f6017
+2	135	6883168242509545	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.pbi	bb6e8506d03e12ff
+138	262	6883168243772797	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/Sys_Init.pbi	4d839091497e1dbf
+132	267	6883168243822445	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.pbi	7269bf9aad808a08
+264	340	6883168244553653	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part0.pbi	9d29bbe46684e18d
+270	418	6883168245339589	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+342	484	6883168245996550	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/main.pbi	a9a4d0c68293e878
+422	500	6883168246156111	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+487	559	6883168246753080	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part2.pbi	830450e250f73880
+562	644	6883168247593256	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+648	1700	6883168257859324	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+1	128	6883172938966490	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Config/system_stm32f4xx.pbi	49a2ea2c535f6017
+3	139	6883172939080407	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.pbi	bb6e8506d03e12ff
+132	271	6883172940397514	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.pbi	7269bf9aad808a08
+143	291	6883172940600945	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/main.pbi	a9a4d0c68293e878
+294	418	6883172941863755	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Source/Sys_Init.pbi	4d839091497e1dbf
+274	422	6883172941893679	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+420	494	6883172942629732	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part0.pbi	9d29bbe46684e18d
+424	500	6883172942689579	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+497	569	6883172943376463	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part2.pbi	830450e250f73880
+572	657	6883172944262671	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+661	1802	6883172954769595	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+2	142	6883173158518220	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+145	217	6883173159268374	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+220	302	6883173160118285	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+305	1380	6883173170589633	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+2	156	6883176040456459	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+160	243	6883176041334108	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+247	332	6883176042231427	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+337	1418	6883176052776651	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+2	141	6883177010638725	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+144	216	6883177011395097	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+220	303	6883177012273250	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+309	1401	6883177022932667	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e
+2	147	6883177980956883	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/Libraries/USART/USART.pbi	2d73d0e749227e2a
+151	224	6883177981722966	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL_part1.pbi	29e6b056207ceab5
+229	313	6883177982616101	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbd	9f2e1a6d4f76d1ed
+318	1416	6883177993336047	C:/Users/cheryomushkinra/Documents/IAR projects/STM32F4xx/USART/Debug/BrowseInfo/UART SPL.pbw	920f05f97b9edc0e

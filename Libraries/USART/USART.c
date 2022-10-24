@@ -28,6 +28,18 @@ void USARTx_Init(USART_TypeDef *USARTx, uint32_t BaudRate, uint32_t WordLength, 
 		SET_BIT(RCC->AHB1ENR, RCC_AHB1ENR_GPIOAEN);
 #endif
 		// Pin config
+#ifdef UART1_RS485
+		/*PA8 - CK*/
+#ifdef STM32F10x
+		SET_BIT(GPIOA->CRH, GPIO_CRH_MODE8);	// Output mode, max speed 50 MHz
+		CLEAR_BIT(GPIOA->CRH, GPIO_CRH_CNF8);	// General purpose output push-pull
+#endif
+#ifdef STM32F4xx
+		MODIFY_REG(GPIOA->MODER, GPIO_MODER_MODER8, GPIO_MODER_MODER8_0);	// 01: General purpose output mode
+		CLEAR_BIT(GPIOA->OTYPER, GPIO_OTYPER_ODR_8);	// 0: Output push-pull (reset state)
+		MODIFY_REG(GPIOA->OSPEEDR, GPIO_OSPEEDER_OSPEEDR8, GPIO_OSPEEDER_OSPEEDR8_1);	// 10: High speed
+#endif
+#endif /*_UART1_RS485_*/
 		/*PA9 - TX*/
 #ifdef STM32F10x
 		SET_BIT(GPIOA->CRH, GPIO_CRH_MODE9);	// Output mode, max speed 50 MHz
@@ -41,6 +53,7 @@ void USARTx_Init(USART_TypeDef *USARTx, uint32_t BaudRate, uint32_t WordLength, 
 #ifdef STM32F10x
 		CLEAR_BIT(GPIOA->CRH, GPIO_CRH_MODE10);	// Input mode (reset state)
 		MODIFY_REG(GPIOA->CRH,GPIO_CRH_CNF10, GPIO_CRH_CNF10_1);	// Input with pull-up / pull-down
+		SET_BIT(GPIOA->ODR, GPIO_ODR_ODR10);	// pull-up
 #endif
 #ifdef STM32F4xx
 		MODIFY_REG(GPIOA->MODER, GPIO_MODER_MODER10, GPIO_MODER_MODER10_1);	// 10: Alternate function mode
@@ -82,6 +95,9 @@ void USARTx_Init(USART_TypeDef *USARTx, uint32_t BaudRate, uint32_t WordLength, 
 		SET_BIT(TIM2->CR1, TIM_CR1_ARPE | TIM_CR1_CEN);
 		NVIC_EnableIRQ(TIM2_IRQn);
 #endif
+#ifdef UART1_RS485
+		CLEAR_BIT(GPIOA->ODR, GPIO_ODR_ODR8);	// Receiver enable
+#endif
 		USART_Init(USART1, &USART1_InitStruct);
 		USART_Cmd(USART1, ENABLE);
 	}
@@ -100,6 +116,18 @@ void USARTx_Init(USART_TypeDef *USARTx, uint32_t BaudRate, uint32_t WordLength, 
 		SET_BIT(RCC->AHB1ENR, RCC_AHB1ENR_GPIOAEN);
 #endif
 		// Pin config
+#ifdef UART2_RS485
+		/*PA4 - CK*/
+#ifdef STM32F10x
+		SET_BIT(GPIOA->CRL, GPIO_CRL_MODE4);	// Output mode, max speed 50 MHz
+		CLEAR_BIT(GPIOA->CRL, GPIO_CRL_CNF4);	// General purpose output push-pull
+#endif
+#ifdef STM32F4xx
+		MODIFY_REG(GPIOA->MODER, GPIO_MODER_MODER4, GPIO_MODER_MODER4_0);	// 01: General purpose output mode
+		CLEAR_BIT(GPIOA->OTYPER, GPIO_OTYPER_ODR_4);	// 0: Output push-pull (reset state)
+		MODIFY_REG(GPIOA->OSPEEDR, GPIO_OSPEEDER_OSPEEDR4, GPIO_OSPEEDER_OSPEEDR4_1);	// 10: High speed
+#endif
+#endif /*_UART2_RS485_*/
 		/*PA2 - TX*/
 #ifdef STM32F10x
 		SET_BIT(GPIOA->CRL, GPIO_CRL_MODE2);	// Output mode, max speed 50 MHz
@@ -113,6 +141,7 @@ void USARTx_Init(USART_TypeDef *USARTx, uint32_t BaudRate, uint32_t WordLength, 
 #ifdef STM32F10x
 		CLEAR_BIT(GPIOA->CRL, GPIO_CRL_MODE3);	// Input mode (reset state)
 		MODIFY_REG(GPIOA->CRL,GPIO_CRL_CNF3, GPIO_CRL_CNF3_1);	// Input with pull-up / pull-down
+		SET_BIT(GPIOA->ODR, GPIO_ODR_ODR3);	// pull-up
 #endif
 #ifdef STM32F4xx
 		MODIFY_REG(GPIOA->MODER, GPIO_MODER_MODER3, GPIO_MODER_MODER3_1);	// 10: Alternate function mode
@@ -144,7 +173,7 @@ void USARTx_Init(USART_TypeDef *USARTx, uint32_t BaudRate, uint32_t WordLength, 
 		UART2.DataRX.Status = Idle;
 #ifdef EngageTIM2
 		// Read timeout timer (F = 20kHz, T = 50uS)
-		ReadTimeout = (uint16_t)((double)((1.0/BaudRate) * (WriteBufferSize * 10)) * 1000000 / 50) + ReserveTime;
+		ReadTimeout = (uint16_t)((double)((1.0/BaudRate) * (ReadBufferSize * 10)) * 1000000 / 50) + ReserveTime;
 		uint32_t UART_CLK_APB1 = rcc_clocks.PCLK1_Frequency;
 		SET_BIT(RCC->APB1ENR, RCC_APB1ENR_TIM2EN);
 		TIM2->PSC = 1 - 1;
@@ -153,6 +182,9 @@ void USARTx_Init(USART_TypeDef *USARTx, uint32_t BaudRate, uint32_t WordLength, 
 		SET_BIT(TIM2->DIER, TIM_DIER_UIE);
 		SET_BIT(TIM2->CR1, TIM_CR1_ARPE | TIM_CR1_CEN);
 		NVIC_EnableIRQ(TIM2_IRQn);
+#endif
+#ifdef UART2_RS485
+		CLEAR_BIT(GPIOA->ODR, GPIO_ODR_ODR4);	// Receiver enable
 #endif
 		USART_Init(USART2, &USART2_InitStruct);
 		USART_Cmd(USART2, ENABLE);
@@ -165,10 +197,13 @@ bool USART_Send(USART_TypeDef *USARTx, uint8_t *pBuffer, uint16_t LengthTX)
 	{
 		if (UART1.DataTX.Status == Idle)
 		{
+#ifdef UART1_RS485
+			SET_BIT(GPIOA->ODR, GPIO_ODR_ODR8);	// Driver enable
+#endif
 			UART1.DataTX.Status = Processing;
 			UART1.DataTX.Counter = 0;
 			UART1.DataTX.Length = LengthTX;
-			if (LengthTX < WriteBufferSize)
+			if (LengthTX <= WriteBufferSize)
 			{
 				memcpy(UART1.DataTX.Data, pBuffer, LengthTX);
 				USARTx->DR = UART1.DataTX.Data[UART1.DataTX.Counter++];
@@ -181,10 +216,13 @@ bool USART_Send(USART_TypeDef *USARTx, uint8_t *pBuffer, uint16_t LengthTX)
 	{
 		if (UART2.DataTX.Status == Idle)
 		{
+#ifdef UART2_RS485
+			SET_BIT(GPIOA->ODR, GPIO_ODR_ODR4);	// Driver enable
+#endif
 			UART2.DataTX.Status = Processing;
 			UART2.DataTX.Counter = 0;
 			UART2.DataTX.Length = LengthTX;
-			if (LengthTX < WriteBufferSize)
+			if (LengthTX <= WriteBufferSize)
 			{
 				memcpy(UART2.DataTX.Data, pBuffer, LengthTX);
 				USARTx->DR = UART2.DataTX.Data[UART2.DataTX.Counter++];
@@ -296,7 +334,13 @@ void USART1_IRQHandler(void)
 	{
 		CLEAR_BIT(USART1->SR, USART_SR_TC);
 		if (UART1.DataTX.Counter < UART1.DataTX.Length) USART1->DR = UART1.DataTX.Data[UART1.DataTX.Counter++];
-		else UART1.DataTX.Status = Idle;
+		else
+		{
+			UART1.DataTX.Status = Idle;
+#ifdef UART1_RS485
+			CLEAR_BIT(GPIOA->ODR, GPIO_ODR_ODR8);	// Receiver enable
+#endif
+		}
 	}
 }
 #endif
@@ -342,7 +386,13 @@ void USART2_IRQHandler(void)
 	{
 		CLEAR_BIT(USART2->SR, USART_SR_TC);
 		if (UART2.DataTX.Counter < UART2.DataTX.Length) USART2->DR = UART2.DataTX.Data[UART2.DataTX.Counter++];
-		else UART2.DataTX.Status = Idle;
+		else
+		{
+			UART2.DataTX.Status = Idle;
+#ifdef UART2_RS485
+			CLEAR_BIT(GPIOA->ODR, GPIO_ODR_ODR4);	// Receiver enable
+#endif
+		}
 	}
 }
 #endif
