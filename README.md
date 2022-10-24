@@ -11,7 +11,7 @@ At the moment, the project implements 3 methods for obtaining data:
 * receiving until ReadBufferSize is filled 
 * receiving until combination of \r + \n is reached
 
-Take in your mind that 2 last methods are unsafe
+Take in your mind that 2 last methods are unsafe, but they help you release TIM2
 
 ## Integration with your project
 1. Copy `USART.h` and `USART.c` from PROJ_DIR\Libraries\USART to your project
