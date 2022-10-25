@@ -14,21 +14,25 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
+#include <assert.h>
 
 /**
 *	@def User definitions
 */
-//#define STM32F10x
+/* MCU */
+// #define STM32F10x
 #define STM32F4xx
+/* UARTx */
 #define UART1_Enable
 #define UART2_Enable
-#define UART1_RS485
-#define UART2_RS485
- #define EngageTIM2
+/* RS485 */
+// #define UART1_RS485
+// #define UART2_RS485
+#define EngageTIM2
 //#define CR_LF_Break
 #define WipeBufferEachRead
-#define ReadBufferSize            15
-#define WriteBufferSize           15
+#define ReadBufferSize            10
+#define WriteBufferSize           10
 /**
 *	@def Maintenance definitions
 */
@@ -78,7 +82,7 @@ typedef struct
 } UART_StructureTypeDef;
 
 /**
-*	@brief	initialization function
+*	@brief	Initialization function
 *	@param	USARTx: Determines which interface will be initialized
 *					@arg	USART1
 *					@arg	USART2

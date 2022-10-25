@@ -1,14 +1,10 @@
 #include "USART.h"
 
 extern RCC_ClocksTypeDef rcc_clocks;
-#ifdef UART1_Enable
 USART_InitTypeDef USART1_InitStruct;
 UART_StructureTypeDef UART1;
-#endif
-#ifdef UART1_Enable
 USART_InitTypeDef USART2_InitStruct;
 UART_StructureTypeDef UART2;
-#endif
 uint16_t ReadTimeout;
 
 
@@ -16,6 +12,9 @@ void USARTx_Init(USART_TypeDef *USARTx, uint32_t BaudRate, uint32_t WordLength, 
 {
 	if (USARTx == USART1)
 	{
+#ifndef UART1_Enable
+		assert(ERROR);
+#endif
 		USART_DeInit(USART1);
 		USART_Cmd(USART1, DISABLE);
 		// RCC
@@ -104,6 +103,9 @@ void USARTx_Init(USART_TypeDef *USARTx, uint32_t BaudRate, uint32_t WordLength, 
 
 	if (USARTx == USART2)
 	{
+#ifndef UART2_Enable
+		assert(ERROR);
+#endif
 		USART_DeInit(USART2);
 		USART_Cmd(USART2, DISABLE);
 		// RCC
