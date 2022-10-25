@@ -19,7 +19,7 @@ Take in your mind that 2 last methods are unsafe, but they help you release TIM2
 3. In `USART.h` uncomment the definition of desired MCU you are going using to
 4. Uncomment UARTx_Enable and UARTx_RS485 needed by your project
 5. Determine the combination of `#define EngageTIM2` and `#define CR_LF_Break`.
-After it take a look on any compiler messages and take them into account 
+After it, take a look on any compiler messages and take them into account 
 6. Define read and write buffer sizes
 7. Comment `#define WipeBufferEachRead` if you want the bufferRX to be filled sequentially
 
