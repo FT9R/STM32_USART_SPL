@@ -7,9 +7,9 @@ It contains functions to support the RS485 physical layer
 ## Data receiving process
 How does the MCU know when a data frame sent from the transceiver is ready to be read?
 At the moment, the project implements 3 methods for obtaining data:
-* using a timeout which is calculated based on the ReadBufferSize defined by the user
-* receiving until ReadBufferSize is filled 
-* receiving until combination of \r + \n is reached
+> * using a timeout which is calculated based on the ReadBufferSize defined by the user
+> * receiving until ReadBufferSize is filled 
+> * receiving until combination of \r + \n is reached
 
 Take in your mind that 2 last methods are unsafe, but they help you release TIM2
 
