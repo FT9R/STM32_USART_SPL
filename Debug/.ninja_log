@@ -1,0 +1,33 @@
+# ninja log v5
+1150	1354	7048201501516363	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o	d4c24366cc936d27
+1365	1548	7048201503515287	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Source/Init.o	a0f751d3c80c71e3
+2	193	7048218800846545	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Config/Sys_Init.o	817ea9dfb3ee64b1
+411	670	7048201494720042	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o	431990b04a450848
+678	900	7048201497018797	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o	aa8f265fe8c8416e
+398	415	7048167957873770	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Config/startup_stm32f40_41xxx.o	606e00023678bb0f
+908	1140	7048201499417718	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/USART/USART.o	3afe19b2ba92a92d
+2	211	7048201490122746	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Config/system_stm32f4xx.o	ea448461df7de66a
+1559	1749	7048201505514206	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Source/main.o	b13e2c8cdfd5e4db
+200	276	7048218801646057	E:/IAR projects/STM32F4xx/USART/Debug/Exe/UART SPL.out	cb63dfc8908cb2c4
+2	239	7048223662955634	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Config/Sys_Init.o	817ea9dfb3ee64b1
+246	272	7048223663355569	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Config/startup_stm32f40_41xxx.o	606e00023678bb0f
+276	456	7048223665154541	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Config/system_stm32f4xx.o	ea448461df7de66a
+466	671	7048223667253433	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o	d4c24366cc936d27
+678	939	7048223669951766	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.o	5c30ce791ddac899
+950	1182	7048223672350472	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o	aa8f265fe8c8416e
+1189	1414	7048223674649468	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/USART/USART.o	3afe19b2ba92a92d
+1422	1684	7048223677347798	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o	431990b04a450848
+1696	1883	7048223679346960	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Source/main.o	b13e2c8cdfd5e4db
+1890	2071	7048223681245719	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Source/Init.o	a0f751d3c80c71e3
+2078	2165	7048223682245185	E:/IAR projects/STM32F4xx/USART/Debug/Exe/UART SPL.out	313ca3e4b280d3bb
+1	21	7048224195998611	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Config/startup_stm32f40_41xxx.o	606e00023678bb0f
+23	206	7048224197697753	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Config/Sys_Init.o	817ea9dfb3ee64b1
+215	397	7048224199596452	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Config/system_stm32f4xx.o	ea448461df7de66a
+405	634	7048224201995172	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_usart.o	aa8f265fe8c8416e
+641	865	7048224204293942	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/USART/USART.o	3afe19b2ba92a92d
+872	1075	7048224206393051	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.o	d4c24366cc936d27
+1084	1351	7048224209191316	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.o	431990b04a450848
+1358	1608	7048224211689978	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Libraries/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_flash.o	5c30ce791ddac899
+1615	1803	7048224213688915	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Source/main.o	b13e2c8cdfd5e4db
+1810	1995	7048224215587934	E:/IAR projects/STM32F4xx/USART/Debug/Obj/Source/Init.o	a0f751d3c80c71e3
+2003	2081	7048224216487638	E:/IAR projects/STM32F4xx/USART/Debug/Exe/UART SPL.out	313ca3e4b280d3bb
